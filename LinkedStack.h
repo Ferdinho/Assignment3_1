@@ -97,7 +97,7 @@ T LinkedStack<T>::pop(){
 template <class T>
 T LinkedStack<T>::stop(){
 	if(!isEmpty()){
-		return &(top->data);
+		return (top->data);
 	}
 	return NULL;
 
